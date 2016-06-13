@@ -1,4 +1,4 @@
-FROM athlinksengineering/java-oracle8
+FROM athlinks/java-oracle:8
 
 RUN apk add --update unzip git jq gettext && \
     rm -rf /tmp/* /var/cache/apk/*

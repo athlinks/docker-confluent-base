@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-docker build -t athlinksengineering/confluent-base . && \
+docker build -t athlinks/confluent-base . && \
 echo "SUCCESS!"
